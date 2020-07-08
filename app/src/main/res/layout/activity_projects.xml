@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Utils.Project.projects"
+    android:orientation="vertical"
+    android:background="@color/background"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/textcolor"
+        android:text="Project Details"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:hint="Project Title"
+        android:id="@+id/project_title"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/textcolor"
+        android:backgroundTint="@color/textcolor"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Client"
+        android:id="@+id/project_client"
+        android:textColor="@color/textcolor"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+
+        android:textColorHint="@color/textcolor"
+        android:backgroundTint="@color/textcolor"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Role"
+        android:id="@+id/project_role"
+        android:textColor="@color/textcolor"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_margin="10dp"
+
+        android:textColorHint="@color/textcolor"
+        android:backgroundTint="@color/textcolor"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:id="@+id/project_desc"
+        android:textColor="@color/textcolor"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/textcolor"
+        android:backgroundTint="@color/textcolor"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/textcolor"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_height="wrap_content"
+            android:text="From"/>
+        <TextView
+            android:id="@+id/project_start"
+            android:textColor="@color/textcolor"
+            android:padding="10dp"
+            android:background="@drawable/rounded_button"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content"
+            android:text="Select Start Date"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/textcolor"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_height="wrap_content"
+            android:text="To"/>
+        <TextView
+            android:id="@+id/project_end"
+            android:padding="10dp"
+            android:textColor="@color/textcolor"
+            android:background="@drawable/rounded_button"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_height="wrap_content"
+            android:text="Select End Date"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="50dp"
+    android:background="@drawable/rounded_button"
+    android:onClick="submitProject"
+    android:textColor="@android:color/white"
+    android:text="Submit"
+    android:textSize="20dp"
+/>
+
+
+</LinearLayout>

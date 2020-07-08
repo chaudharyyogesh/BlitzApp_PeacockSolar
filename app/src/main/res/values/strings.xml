@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Blitz</string>
+    <string name="facebook_app_id">2596903443863791</string>
+    <!--    2596903443863791-->
+    <string name="fb_login_protocol_scheme">fb2596903443863791</string>
+    <!--    <string name="default_web_client_id">340366302127-u3a19rv2dsbk5a7sb7kctbn11bajfqkp.apps.googleusercontent.com</string>-->
+    <string name="slow">Your Internet is slow please wait</string>
+    <string name="title"></string>
+    <string name="message"></string>
+    <string name="time"></string>
+</resources>

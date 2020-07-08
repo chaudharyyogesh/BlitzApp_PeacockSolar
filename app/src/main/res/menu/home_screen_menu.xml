@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    item android:id="@+id/update_profile"
+    android:title="update profile"
+    app:showAsAction= "never"/>
+    <item android:id="@+id/profile_update"
+        android:title="Profile"
+        app:showAsAction= "never"/>
+    <item android:id="@+id/notifications"
+        android:title="Notification"
+        app:showAsAction= "never"/>
+    <item android:id="@+id/about_us"
+        android:title="About us"
+        app:showAsAction= "never"/>
+    <item android:id="@+id/contact"
+        android:title="Contact Us"
+        app:showAsAction= "never"/>
+    <item android:id="@+id/log_out"
+        android:title="Logout"
+        app:showAsAction= "never"/>
+</menu>

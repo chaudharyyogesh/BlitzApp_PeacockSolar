@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".About">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Overview:"
+        android:textColor="@color/textcolor"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blitzjobs has been established with a vision to provide best-in class workforce solutions to organizations, colleges and individuals alike. Blitzjobs is the ultimate solution for all the HR problems organizations face. We are 100% committed to providing our clients with top notch solutions that leave them satisfied and accelerate their growth."
+                android:textColor="@color/textcolor"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We have built our credibility by consistently performing well and have emerged as a service partner of choice with various organizations of repute like Peacock Solar and Eureka Forbes. We have a brilliant team of HR professionals and analysts. Our aim is to provide a significant competitive edge to our clients in a fast growing market like India. We offer the right talent at the earliest possible and enable our clients to do better business every day. "
+                android:textColor="@color/textcolor"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='We build enduring relationships with our clients and candidates and this approach empowers organizations to meet and exceed their business goals. We always commit to our motto, "Employment for Everyone".'
+                android:textColor="@color/textcolor"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

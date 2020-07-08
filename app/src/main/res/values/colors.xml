@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FC3577</color>
+    <color name="colorPrimaryDark">#F80C71</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Button">#f87827</color>
+    <color name="grey">#f0f0f0</color>
+    <color name="dividorline">#A9A9A9</color>
+
+<!--    change here-->
+    <color name="background">@android:color/holo_blue_light</color>
+    <color name="textcolor">@android:color/white</color>
+
+</resources>

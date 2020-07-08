@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.blitz_github">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bj"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bj"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Address"
+            android:label="Address Details"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Utils.Project.projects"
+            android:label="Project Details"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name=".Utils.loginHelper"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Account.register"
+            android:label="Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Account.login_register"
+            android:label="Login or Register"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Notifications.notification"
+            android:label="Notification"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Home_activity"
+            android:label="Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".About"
+            android:label="About"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".dialoguebox.KeySkillActivity"
+            android:label="key Skills"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Contact"
+            android:label="Contact"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Account.Complete_Registration"
+            android:label="Complete Registration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Notifications.Notification_activity"
+            android:label="Notification"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

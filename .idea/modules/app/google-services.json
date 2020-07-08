@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "340366302127",
+    "firebase_url": "https://blitzgithub.firebaseio.com",
+    "project_id": "blitzgithub",
+    "storage_bucket": "blitzgithub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340366302127:android:7d5f77af37d3303139ed5a",
+        "android_client_info": {
+          "package_name": "com.example.blitz_github"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340366302127-u3a19rv2dsbk5a7sb7kctbn11bajfqkp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blitz_github",
+            "certificate_hash": "efe5b968f007b8dc01a5506429c27163a5424d55"
+          }
+        },
+        {
+          "client_id": "340366302127-ca07nv0875na7bhfj7uc0pokt7vff7as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRLoNhzqGau9VdCK6FR5ZXzKygiJ2LBg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340366302127-ca07nv0875na7bhfj7uc0pokt7vff7as.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
